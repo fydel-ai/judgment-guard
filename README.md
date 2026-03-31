@@ -21,7 +21,7 @@ When you ask Claude for recommendations on consequential topics — money, healt
 
 Clone the repo into your user skills directory:
 
-> Install judgment-guard: run `git clone https://github.com/daqo/judgment-guard.git ~/.claude/skills/judgment-guard`
+> Install judgment-guard: run `git clone https://github.com/fydel-ai/judgment-guard.git ~/.claude/skills/judgment-guard`
 
 Claude Code looks for user-installed skills in `~/.claude/skills/`, so this creates:
 
