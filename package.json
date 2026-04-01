@@ -1,0 +1,28 @@
+{
+  "name": "@fydel-ai/judgment-guard",
+  "version": "1.0.0",
+  "description": "Claude Code skill that catches advice sounding more certain than the evidence warrants",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fydel-ai/judgment-guard.git"
+  },
+  "bin": {
+    "judgment-guard": "./bin/install.mjs"
+  },
+  "files": [
+    "bin/",
+    "SKILL.md",
+    "rubric.md",
+    "templates/",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "claude",
+    "claude-code",
+    "skill",
+    "judgment",
+    "uncertainty"
+  ]
+}
