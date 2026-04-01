@@ -9,6 +9,9 @@ SKILL.md                      # Skill definition — trigger conditions, evaluat
 rubric.md                     # Scoring criteria for evidence strength, action pressure, and overstatement signals
 templates/
   report_template.md          # Blank output template (Decision audit, Claim map, Safer answer, What to verify)
+package.json                  # npm package config — enables `npx @fydel-ai/judgment-guard`
+bin/
+  install.mjs                 # CLI installer — copies skill files to ~/.claude/skills/judgment-guard/
 ```
 
 ## How it works
