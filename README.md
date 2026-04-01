@@ -1,17 +1,17 @@
 # Judgment Guard
 
-A Claude Code skill that catches advice that sounds more certain than the evidence warrants.
+A Claude Code skill that calibrates trust in AI-generated advice — ensuring confidence matches evidence, no more, no less.
 
-When you ask Claude for recommendations on consequential topics — money, health, career, legal, safety, purchases — this skill audits the response for overconfidence and rewrites it with appropriate uncertainty.
+When you ask Claude for recommendations on consequential topics — money, health, career, legal, safety, purchases — this skill audits the response for miscalibrated confidence and rewrites it to match the evidence.
 
 ## What it does
 
-1. Evaluates draft answers on five dimensions: evidence strength, expressed confidence, action pressure, missing alternatives, and hidden inferential leaps
+1. Evaluates draft answers on six dimensions: evidence strength, assumption visibility, confidence calibration, action pressure, alternative coverage, and epistemic authority
 2. Applies an intervention policy:
-   - **Strong evidence** — direct answer, with fact vs inference labeled
+   - **Strong evidence** — direct, confident answer with assumptions surfaced inline
    - **Mixed evidence** — multiple interpretations, counterpoints, and what would change the conclusion
    - **Weak evidence** — no ranked recommendations, only possibilities and verification steps
-3. Outputs a structured report: decision audit, claim map, safer rewrite, and verification checklist
+3. Outputs a structured report: decision audit, claim map, hidden assumptions, calibrated answer, and verification checklist
 
 ## Install
 
@@ -50,16 +50,19 @@ Claude Code can load the skill automatically when the prompt calls for advice on
 | File | Purpose |
 |------|---------|
 | `SKILL.md` | Skill definition — trigger conditions, evaluation dimensions, intervention policy, output format |
-| `rubric.md` | Scoring criteria for evidence strength, action pressure, and overstatement signals |
-| `templates/report_template.md` | Blank template for the four output sections |
+| `rubric.md` | Scoring criteria for all six evaluation dimensions |
+| `templates/report_template.md` | Blank template for the five output sections |
 
 ## Example output
 
 ```
 ### Decision audit
-- Recommendation pressure: high
 - Evidence strength: medium
-- Confidence fit: overstated
+- Assumption visibility: low
+- Confidence calibration: overstated
+- Action pressure: high
+- Alternative coverage: low
+- Epistemic authority: appropriate
 
 ### Claim map
 **Supported facts**
@@ -71,8 +74,15 @@ Claude Code can load the skill automatically when the prompt calls for advice on
 **Speculation / missing evidence**
 - ...
 
-### Safer answer
-(rewritten response with calibrated confidence)
+### Hidden assumptions
+**What must be true for the inferences above to hold**
+- ...
+
+**Assumptions the user may not have considered**
+- ...
+
+### Calibrated answer
+(rewritten response with confidence matched to evidence)
 
 ### What to verify before acting
 1. ...

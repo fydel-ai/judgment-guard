@@ -1,7 +1,10 @@
 ### Decision audit
-- Recommendation pressure: _low / medium / high_
 - Evidence strength: _low / medium / high_
-- Confidence fit: _underconfident / appropriate / overstated_
+- Assumption visibility: _low / medium / high_
+- Confidence calibration: _underconfident / appropriate / overstated_
+- Action pressure: _low / medium / high_
+- Alternative coverage: _low / medium / high_
+- Epistemic authority: _appropriate / overstated_
 
 ### Claim map
 **Supported facts**
@@ -13,7 +16,14 @@
 **Speculation / missing evidence**
 -
 
-### Safer answer
+### Hidden assumptions
+**What must be true for the inferences above to hold**
+-
+
+**Assumptions the user may not have considered**
+-
+
+### Calibrated answer
 
 
 ### What to verify before acting
