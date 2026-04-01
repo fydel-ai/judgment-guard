@@ -15,15 +15,19 @@ When you ask Claude for recommendations on consequential topics — money, healt
 
 ## Install
 
-**Requirements:** [Claude Code](https://docs.anthropic.com/en/docs/claude-code)
+**Requirements:** [Claude Code](https://docs.anthropic.com/en/docs/claude-code) and Node.js 18+
 
-### Personal install
+### Quick install (recommended)
+
+> Install judgment-guard: run `npx @fydel-ai/judgment-guard`
+
+### Manual install
 
 Clone the repo into your user skills directory:
 
 > Install judgment-guard: run `git clone https://github.com/fydel-ai/judgment-guard.git ~/.claude/skills/judgment-guard`
 
-Claude Code looks for user-installed skills in `~/.claude/skills/`, so this creates:
+Either method creates:
 
 > `~/.claude/skills/judgment-guard/SKILL.md`
 
