@@ -11,9 +11,6 @@
   "bin": {
     "judgment-guard": "bin/install.mjs"
   },
-  "scripts": {
-    "test": "node --test"
-  },
   "files": [
     "bin/",
     "SKILL.md",
