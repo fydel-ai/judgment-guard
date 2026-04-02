@@ -1,17 +1,17 @@
 ---
 name: judgment-guard
-description: Use this skill when the user is asking for advice, recommendations, comparisons, or decision support and the answer's confidence may not match the evidence — either overstated or unnecessarily hedged.
+description: Use this skill when the user asks for advice, recommendations, comparisons, prioritization, or decision support on consequential topics where evidence quality, recency, or uncertainty may affect the answer.
 tools: []
 ---
 # Judgment Guard
 Your job is to calibrate trust — ensure the answer earns exactly the confidence it projects. Well-supported advice should sound confident. Weakly supported advice should not.
 Use this skill when:
 - the user asks what they should do
-- the answer includes recommendations, rankings, or prioritization
+- the user wants recommendations, rankings, comparisons, or prioritization
 - the topic is consequential (money, health, career, relationships, legal, safety, policy, purchases, vendor selection)
-- the confidence may be miscalibrated — too certain for weak evidence, or too hedged for strong evidence
+- the evidence is incomplete, conflicting, anecdotal, stale, or missing
 ## Objective
-Detect whether the draft answer's confidence is calibrated to its evidence.
+Detect whether the draft answer projects more authority than it has earned.
 Estimate these seven dimensions qualitatively:
 1. Evidence strength — factual foundation, including recency
 2. Assumption visibility — premises the answer treats as given but never states

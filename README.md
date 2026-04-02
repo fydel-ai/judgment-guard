@@ -2,7 +2,7 @@
 
 A Claude Code skill that calibrates trust in AI-generated advice — ensuring confidence matches evidence, no more, no less.
 
-When you ask Claude for recommendations on consequential topics — money, health, career, legal, safety, purchases — this skill audits the response for miscalibrated confidence and rewrites it to match the evidence.
+When you ask Claude for advice, recommendations, comparisons, or prioritization on consequential topics — money, health, career, legal, safety, purchases — this skill checks whether evidence quality, recency, or uncertainty should change the confidence of the answer, then rewrites it to match.
 
 ## What it does
 
