@@ -5,6 +5,7 @@
 - Action pressure: _low / medium / high_
 - Alternative coverage: _low / medium / high_
 - Epistemic authority: _appropriate / overstated_
+- False consensus: _none detected / possible / present_ *(include only when answer synthesizes multiple sources or conflicting data points)*
 
 ### Claim map
 **Supported facts**
