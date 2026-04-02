@@ -37,16 +37,18 @@ Overstated:
 - elegant causal chain with omitted caveats
 - one-sided framing
 - recommendation stronger than evidence
+- uncertain claims stated without qualification
 
 Appropriate:
 - certainty matches evidence quality
 - hedges present where needed, absent where not
 - caveats included for weak spots without burying strong conclusions
+- at the claim level, qualifiers present where evidence is uncertain and absent where solid
 
 Underconfident:
-- excessive hedging on well-supported claims
-- useful conclusions buried in qualifiers
-- strong evidence presented tentatively
+- well-supported claims buried in unnecessary qualifiers
+- useful conclusions presented tentatively despite strong evidence
+- excessive hedging that undermines actionability
 
 ## Action pressure
 High:
@@ -84,3 +86,18 @@ Overstated:
 - implies insider or professional knowledge
 - presents general reasoning as expert opinion
 - fails to flag when professional advice is needed
+
+## False consensus
+None detected:
+- disagreements among sources surfaced
+- tensions between data points preserved
+- reader can see where sources conflict
+
+Possible:
+- disagreement acknowledged but minimized or downplayed
+- conflicting evidence mentioned but not given appropriate weight
+
+Present:
+- conflicting sources merged into single narrative without surfacing tension
+- disagreement between data points erased in synthesis
+- false agreement manufactured from genuinely conflicting inputs

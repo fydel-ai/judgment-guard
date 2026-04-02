@@ -6,7 +6,7 @@ When you ask Claude for recommendations on consequential topics — money, healt
 
 ## What it does
 
-1. Evaluates draft answers on six dimensions: evidence strength, assumption visibility, confidence calibration, action pressure, alternative coverage, and epistemic authority
+1. Evaluates draft answers on seven dimensions: evidence strength, assumption visibility, confidence calibration, action pressure, alternative coverage, epistemic authority, and false consensus
 2. Applies an intervention policy:
    - **Strong evidence** — direct, confident answer with assumptions surfaced inline
    - **Mixed evidence** — multiple interpretations, counterpoints, and what would change the conclusion
@@ -50,7 +50,7 @@ Claude Code can load the skill automatically when the prompt calls for advice on
 | File | Purpose |
 |------|---------|
 | `SKILL.md` | Skill definition — trigger conditions, evaluation dimensions, intervention policy, output format |
-| `rubric.md` | Scoring criteria for all six evaluation dimensions |
+| `rubric.md` | Scoring criteria for all seven evaluation dimensions |
 | `templates/report_template.md` | Blank template for the five output sections |
 
 ## Example output
@@ -63,6 +63,7 @@ Claude Code can load the skill automatically when the prompt calls for advice on
 - Action pressure: high
 - Alternative coverage: low
 - Epistemic authority: appropriate
+- False consensus: none detected
 
 ### Claim map
 **Supported facts**
